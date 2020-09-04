@@ -1,0 +1,46 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}Projects{%endblock%}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-12">
+        <h1>Mes projets récents</h1>
+        Voici les projets que j'ai développé (ou contribué à), durant ma Licence Professionnelle de développeur d'application orientée Objet
+        <ul class="list-group">
+            <li class="list-group-item">
+                participé au développement d'un site internet , <b>en PHP</b>, pour un club de HandBall, dans le but de faire un site vitrine. J'ai développé le back-end.
+            </li>
+            <li class="list-group-item">
+                développé un site internet , <b>en PHP en utilisant un framework maison</b>, pour un club de HandBall, dans le but de faire un site qui permettent des gérer les infos des adhérents. (en stage)
+            </li>
+            <li class="list-group-item">
+                développpé une application mobile de sélection de films favoris parmis une liste. Ce qui m'a permis de faire d'une pierre deux coups, à savoir
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        l'appli mobile, <b>en React Native</b> qui va interroger l'api qui recense les films
+                    </li>
+                    <li class="list-group-item">
+                        le back-end, sous forme d'API, <b>en PHP</b>, qui gère:
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                l'authentification
+                            </li>
+                            <li class="list-group-item">
+                                l'ajout des films à la base de données des films favoris
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                participé au développement d'une application <b>Java</b> permettant la créer de parcours de visite d'une ville, en passant par ses bâtiments, avec
+                <ul class="list-group">
+                    <li class="list-group-item">un front-end en Java FX</li>
+                    <li class="list-group-item">un back-end fait de microservices. J'ai développé le microservice <b>(MSA)</b> de gestion des bâtiments</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+{%  endblock %}
